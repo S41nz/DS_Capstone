@@ -94,7 +94,6 @@ shinyServer(function(input, output) {
    }
     
    #Return the final result
-    print(Sys.time()-startTime)
    return(predictionResult)
   }
   

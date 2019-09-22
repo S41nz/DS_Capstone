@@ -22,11 +22,11 @@ shinyUI(fluidPage(
        textInput("targetString","Enter the test string:"),
        submitButton("Predict text")
     ),
-    
     # Show a plot of the generated distribution
     mainPanel(
        h3("And the resulting string is..."),
        textOutput("resultString")
     )
-  )
+  ),
+  h4("Source code at: https://github.com/S41nz/DS_Capstone")
 ))
